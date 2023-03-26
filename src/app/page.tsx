@@ -50,6 +50,7 @@ export default function Home() {
             e.target.classList.add("border-red-800");
             e.target.classList.add("text-red-800");
             e.target.classList.add("bg-red-500");
+
             setTimeout(() => {
                 e.target.classList.remove("border-red-800");
                 e.target.classList.remove("bg-red-500");
