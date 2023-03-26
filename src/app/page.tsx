@@ -1,91 +1,83 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+"use client";
 
-const inter = Inter({ subsets: ['latin'] })
+import questions from "@/questions.json";
+import { useState } from "react";
+
+const getRandomQuestion = (questions: Question[]) => {
+    const index = Math.floor(Math.random() * questions.length);
+    const q = questions[index];
+
+    questions.splice(index, 1);
+    return q;
+};
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    const [question, setQuestion] = useState<Question>(
+        getRandomQuestion(questions)
+    );
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+    const handleAnswer = (e: any, answer: Answer) => {
+        if (answer.is_correct) {
+            // chage the color to green, wait 1 second, remove bg and then change the question
+            e.target.classList.add("border-green-800");
+            e.target.classList.add("text-green-800");
+            e.target.classList.add("bg-green-500");
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+            setTimeout(() => {
+                e.target.classList.remove("border-green-800");
+                e.target.classList.remove("text-green-800");
+                e.target.classList.remove("bg-green-500");
+                setQuestion(getRandomQuestion(questions));
+            }, 2000);
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+            // if there are no more questions, show a message
+            if (questions.length === 0) {
+                e.target.classList.add("border-green-800");
+                e.target.classList.add("text-green-800");
+                e.target.classList.add("bg-green-500");
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+                setTimeout(() => {
+                    e.target.classList.remove("border-green-800");
+                    e.target.classList.remove("text-green-800");
+                    e.target.classList.remove("bg-green-500");
+                    setQuestion({
+                        question: "You have answered all the questions!",
+                        answers: [],
+                    });
+                }, 2000);
+            }
+        } else {
+            e.target.classList.add("border-red-800");
+            e.target.classList.add("text-red-800");
+            e.target.classList.add("bg-red-500");
+            setTimeout(() => {
+                e.target.classList.remove("border-red-800");
+                e.target.classList.remove("bg-red-500");
+                e.target.classList.remove("text-red-800");
+                setQuestion(getRandomQuestion(questions));
+            }, 2000);
+        }
+    };
+
+    return (
+        <main className="flex flex-col items-center w-screen h-screen justify-evenly bg-gradient-to-b from-secondary to-tertiary text-neutral-100">
+            <h1 className="w-3/4 text-2xl font-bold text-center md:text-5xl lg:w-2/3 text-primary">
+                {question.question}
+            </h1>
+            <div className="gap-3 py-3 space-y-3 columns-1 lg:columns-2">
+                {/* shuffle the answers */}
+                {question.answers
+                    .sort(() => Math.random() - 0.5)
+                    .map((answer: Answer, index: number) => (
+                        <p
+                            onClick={(e) => handleAnswer(e, answer)}
+                            className="px-10 py-2 text-xl font-semibold text-center transition-all duration-300 border-2 shadow-xl md:text-2xl w-72 md:w-96 hover:md:scale-105 hover:md:opacity-80 hover:cursor-pointer text-primary bg-tertiary border-primary rounded-xl shadow-white/10"
+                            key={index}
+                        >
+                            {answer.answer}
+                        </p>
+                    ))}
+            </div>
+        </main>
+    );
 }

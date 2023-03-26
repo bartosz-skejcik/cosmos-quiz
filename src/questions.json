@@ -1,0 +1,754 @@
+[
+    {
+        "question": "What is the name of the closest star to Earth?",
+        "answers": [
+            { "id": 1, "answer": "Proxima Centauri", "is_correct": true },
+            { "id": 2, "answer": "Alpha Centauri A", "is_correct": false },
+            { "id": 3, "answer": "Alpha Centauri B", "is_correct": false },
+            { "id": 4, "answer": "Betelgeuse", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest planet in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Jupiter", "is_correct": true },
+            { "id": 2, "answer": "Saturn", "is_correct": false },
+            { "id": 3, "answer": "Uranus", "is_correct": false },
+            { "id": 4, "answer": "Neptune", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the asteroid belt located between Mars and Jupiter?",
+        "answers": [
+            { "id": 1, "answer": "Main Asteroid Belt", "is_correct": true },
+            { "id": 2, "answer": "Kuiper Belt", "is_correct": false },
+            { "id": 3, "answer": "Oort Cloud", "is_correct": false },
+            { "id": 4, "answer": "Scattered Disc", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the galaxy that contains our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Milky Way", "is_correct": true },
+            { "id": 2, "answer": "Andromeda", "is_correct": false },
+            { "id": 3, "answer": "Triangulum", "is_correct": false },
+            { "id": 4, "answer": "Whirlpool", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest moon in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Ganymede", "is_correct": true },
+            { "id": 2, "answer": "Titan", "is_correct": false },
+            { "id": 3, "answer": "Io", "is_correct": false },
+            { "id": 4, "answer": "Europa", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process that powers the sun?",
+        "answers": [
+            { "id": 1, "answer": "Nuclear Fusion", "is_correct": true },
+            { "id": 2, "answer": "Nuclear Fission", "is_correct": false },
+            {
+                "id": 3,
+                "answer": "Electromagnetic Radiation",
+                "is_correct": false
+            },
+            { "id": 4, "answer": "Gravity", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest volcano in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Olympus Mons", "is_correct": true },
+            { "id": 2, "answer": "Mauna Loa", "is_correct": false },
+            { "id": 3, "answer": "Mount Everest", "is_correct": false },
+            { "id": 4, "answer": "Mount Kilimanjaro", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that first landed humans on the moon?",
+        "answers": [
+            { "id": 1, "answer": "Apollo 11", "is_correct": true },
+            { "id": 2, "answer": "Soyuz 1", "is_correct": false },
+            { "id": 3, "answer": "Gemini 7", "is_correct": false },
+            { "id": 4, "answer": "Vostok 1", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where light is bent by gravity?",
+        "answers": [
+            { "id": 1, "answer": "Gravitational Lensing", "is_correct": true },
+            { "id": 2, "answer": "Redshift", "is_correct": false },
+            { "id": 3, "answer": "Dark Matter", "is_correct": false },
+            { "id": 4, "answer": "Black Hole", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that is currently exploring Jupiter?",
+        "answers": [
+            { "id": 1, "answer": "Juno", "is_correct": true },
+            { "id": 2, "answer": "Voyager 2", "is_correct": false },
+            { "id": 3, "answer": "New Horizons", "is_correct": false },
+            { "id": 4, "answer": "Cassini", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest known structure in the universe?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Hercules-Corona Borealis Great Wall",
+                "is_correct": true
+            },
+            { "id": 2, "answer": "Virgo Supercluster", "is_correct": false },
+            { "id": 3, "answer": "Sloan Great Wall", "is_correct": false },
+            { "id": 4, "answer": "Boötes Void", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the planet that is nicknamed the 'Red Planet'?",
+        "answers": [
+            { "id": 1, "answer": "Mars", "is_correct": true },
+            { "id": 2, "answer": "Venus", "is_correct": false },
+            { "id": 3, "answer": "Mercury", "is_correct": false },
+            { "id": 4, "answer": "Jupiter", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the space telescope that was launched in 1990?",
+        "answers": [
+            { "id": 1, "answer": "Hubble Space Telescope", "is_correct": true },
+            {
+                "id": 2,
+                "answer": "Spitzer Space Telescope",
+                "is_correct": false
+            },
+            {
+                "id": 3,
+                "answer": "Chandra X-ray Observatory",
+                "is_correct": false
+            },
+            {
+                "id": 4,
+                "answer": "James Webb Space Telescope",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the galaxy that contains our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Milky Way", "is_correct": true },
+            { "id": 2, "answer": "Andromeda", "is_correct": false },
+            { "id": 3, "answer": "Sombrero", "is_correct": false },
+            { "id": 4, "answer": "Whirlpool", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where a star explodes and becomes extremely bright?",
+        "answers": [
+            { "id": 1, "answer": "Supernova", "is_correct": true },
+            { "id": 2, "answer": "Black Hole", "is_correct": false },
+            { "id": 3, "answer": "Neutron Star", "is_correct": false },
+            { "id": 4, "answer": "White Dwarf", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the first artificial satellite to orbit the Earth?",
+        "answers": [
+            { "id": 1, "answer": "Sputnik 1", "is_correct": true },
+            { "id": 2, "answer": "Explorer 1", "is_correct": false },
+            { "id": 3, "answer": "Vanguard 1", "is_correct": false },
+            { "id": 4, "answer": "Telstar 1", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that was launched to study Saturn and its moons?",
+        "answers": [
+            { "id": 1, "answer": "Cassini", "is_correct": true },
+            { "id": 2, "answer": "Galileo", "is_correct": false },
+            { "id": 3, "answer": "Viking", "is_correct": false },
+            { "id": 4, "answer": "Pioneer", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest moon in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Ganymede", "is_correct": true },
+            { "id": 2, "answer": "Titan", "is_correct": false },
+            { "id": 3, "answer": "Europa", "is_correct": false },
+            { "id": 4, "answer": "Callisto", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the space agency of the European Union?",
+        "answers": [
+            { "id": 1, "answer": "European Space Agency", "is_correct": true },
+            {
+                "id": 2,
+                "answer": "National Aeronautics and Space Administration",
+                "is_correct": false
+            },
+            {
+                "id": 3,
+                "answer": "Russian Federal Space Agency",
+                "is_correct": false
+            },
+            {
+                "id": 4,
+                "answer": "China National Space Administration",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where a planet or moon blocks the light from another celestial body?",
+        "answers": [
+            { "id": 1, "answer": "Eclipse", "is_correct": true },
+            { "id": 2, "answer": "Transit", "is_correct": false },
+            { "id": 3, "answer": "Occultation", "is_correct": false },
+            { "id": 4, "answer": "Conjunction", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where the moon appears red during a total lunar eclipse?",
+        "answers": [
+            { "id": 1, "answer": "Blood Moon", "is_correct": true },
+            { "id": 2, "answer": "Blue Moon", "is_correct": false },
+            { "id": 3, "answer": "Supermoon", "is_correct": false },
+            { "id": 4, "answer": "Harvest Moon", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the first American woman to travel to space?",
+        "answers": [
+            { "id": 1, "answer": "Sally Ride", "is_correct": true },
+            { "id": 2, "answer": "Valentina Tereshkova", "is_correct": false },
+            { "id": 3, "answer": "Judith Resnik", "is_correct": false },
+            { "id": 4, "answer": "Kathryn Sullivan", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that carried the first humans to the moon?",
+        "answers": [
+            { "id": 1, "answer": "Apollo 11", "is_correct": true },
+            { "id": 2, "answer": "Gemini 4", "is_correct": false },
+            { "id": 3, "answer": "Mercury 7", "is_correct": false },
+            { "id": 4, "answer": "Vostok 1", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the planet known as the 'Red Planet'?",
+        "answers": [
+            { "id": 1, "answer": "Mars", "is_correct": true },
+            { "id": 2, "answer": "Jupiter", "is_correct": false },
+            { "id": 3, "answer": "Venus", "is_correct": false },
+            { "id": 4, "answer": "Mercury", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that landed on a comet in 2014?",
+        "answers": [
+            { "id": 1, "answer": "Rosetta", "is_correct": true },
+            { "id": 2, "answer": "Chang'e 3", "is_correct": false },
+            { "id": 3, "answer": "Philae", "is_correct": false },
+            { "id": 4, "answer": "Hayabusa", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest asteroid in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Ceres", "is_correct": true },
+            { "id": 2, "answer": "Vesta", "is_correct": false },
+            { "id": 3, "answer": "Pallas", "is_correct": false },
+            { "id": 4, "answer": "Hygiea", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest moon of Saturn?",
+        "answers": [
+            { "id": 1, "answer": "Titan", "is_correct": true },
+            { "id": 2, "answer": "Enceladus", "is_correct": false },
+            { "id": 3, "answer": "Mimas", "is_correct": false },
+            { "id": 4, "answer": "Hyperion", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the closest star to our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Proxima Centauri", "is_correct": true },
+            { "id": 2, "answer": "Alpha Centauri A", "is_correct": false },
+            { "id": 3, "answer": "Alpha Centauri B", "is_correct": false },
+            { "id": 4, "answer": "Barnard's Star", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest planet in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Jupiter", "is_correct": true },
+            { "id": 2, "answer": "Saturn", "is_correct": false },
+            { "id": 3, "answer": "Uranus", "is_correct": false },
+            { "id": 4, "answer": "Neptune", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that was launched to study Pluto?",
+        "answers": [
+            { "id": 1, "answer": "New Horizons", "is_correct": true },
+            { "id": 2, "answer": "Voyager 1", "is_correct": false },
+            { "id": 3, "answer": "Voyager 2", "is_correct": false },
+            { "id": 4, "answer": "Pioneer 10", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where light is bent due to gravity?",
+        "answers": [
+            { "id": 1, "answer": "Gravitational lensing", "is_correct": true },
+            { "id": 2, "answer": "Diffraction", "is_correct": false },
+            { "id": 3, "answer": "Refraction", "is_correct": false },
+            { "id": 4, "answer": "Reflection", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that studied the asteroid belt?",
+        "answers": [
+            { "id": 1, "answer": "Dawn", "is_correct": true },
+            { "id": 2, "answer": "Galileo", "is_correct": false },
+            { "id": 3, "answer": "Juno", "is_correct": false },
+            { "id": 4, "answer": "Cassini", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process where a star converts hydrogen to helium?",
+        "answers": [
+            { "id": 1, "answer": "Nuclear fusion", "is_correct": true },
+            { "id": 2, "answer": "Nuclear fission", "is_correct": false },
+            { "id": 3, "answer": "Radioactive decay", "is_correct": false },
+            { "id": 4, "answer": "Ionization", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the star system that has a red supergiant and is expected to become a supernova in the near future?",
+        "answers": [
+            { "id": 1, "answer": "Betelgeuse", "is_correct": true },
+            { "id": 2, "answer": "Rigel", "is_correct": false },
+            { "id": 3, "answer": "Antares", "is_correct": false },
+            { "id": 4, "answer": "Spica", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process where a planet or moon has a thin atmosphere that is lost to space over time?",
+        "answers": [
+            { "id": 1, "answer": "Atmospheric escape", "is_correct": true },
+            { "id": 2, "answer": "Atmospheric retention", "is_correct": false },
+            { "id": 3, "answer": "Atmospheric creation", "is_correct": false },
+            { "id": 4, "answer": "Atmospheric fusion", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the asteroid that is believed to have wiped out the dinosaurs?",
+        "answers": [
+            { "id": 1, "answer": "Chicxulub", "is_correct": true },
+            { "id": 2, "answer": "Apophis", "is_correct": false },
+            { "id": 3, "answer": "Bennu", "is_correct": false },
+            { "id": 4, "answer": "Vesta", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the galaxy that our solar system is in?",
+        "answers": [
+            { "id": 1, "answer": "Milky Way", "is_correct": true },
+            { "id": 2, "answer": "Andromeda", "is_correct": false },
+            { "id": 3, "answer": "Triangulum", "is_correct": false },
+            { "id": 4, "answer": "Whirlpool", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the comet that was visited by the spacecraft Rosetta?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "67P/Churyumov-Gerasimenko",
+                "is_correct": true
+            },
+            { "id": 2, "answer": "Halley's Comet", "is_correct": false },
+            { "id": 3, "answer": "Hale-Bopp", "is_correct": false },
+            { "id": 4, "answer": "Comet Lovejoy", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process where a planet or moon has a thick atmosphere that traps heat, causing surface temperatures to rise?",
+        "answers": [
+            { "id": 1, "answer": "Greenhouse effect", "is_correct": true },
+            { "id": 2, "answer": "Global warming", "is_correct": false },
+            {
+                "id": 3,
+                "answer": "Thermohaline circulation",
+                "is_correct": false
+            },
+            { "id": 4, "answer": "Albedo effect", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest volcano in the solar system?",
+        "answers": [
+            { "id": 1, "answer": "Olympus Mons", "is_correct": true },
+            { "id": 2, "answer": "Mauna Loa", "is_correct": false },
+            { "id": 3, "answer": "Mount Etna", "is_correct": false },
+            { "id": 4, "answer": "Mount St. Helens", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that was launched in 1977 and has since traveled beyond our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Voyager 1", "is_correct": true },
+            { "id": 2, "answer": "Pioneer 10", "is_correct": false },
+            { "id": 3, "answer": "New Horizons", "is_correct": false },
+            { "id": 4, "answer": "Galileo", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the nearest star system to our own?",
+        "answers": [
+            { "id": 1, "answer": "Alpha Centauri", "is_correct": true },
+            { "id": 2, "answer": "Proxima Centauri", "is_correct": false },
+            { "id": 3, "answer": "Barnard's Star", "is_correct": false },
+            { "id": 4, "answer": "Sirius", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where light is bent by gravity?",
+        "answers": [
+            { "id": 1, "answer": "Gravitational lensing", "is_correct": true },
+            { "id": 2, "answer": "Light scattering", "is_correct": false },
+            { "id": 3, "answer": "Refraction", "is_correct": false },
+            { "id": 4, "answer": "Diffraction", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where a star appears to dim when a planet passes in front of it?",
+        "answers": [
+            { "id": 1, "answer": "Transit", "is_correct": true },
+            { "id": 2, "answer": "Eclipse", "is_correct": false },
+            { "id": 3, "answer": "Occultation", "is_correct": false },
+            { "id": 4, "answer": "Passage", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process where a star fuses helium into carbon?",
+        "answers": [
+            { "id": 1, "answer": "Triple-alpha process", "is_correct": true },
+            {
+                "id": 2,
+                "answer": "Carbon-nitrogen-oxygen cycle",
+                "is_correct": false
+            },
+            { "id": 3, "answer": "Proton-proton chain", "is_correct": false },
+            { "id": 4, "answer": "CNO cycle", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the telescope that was launched in 1990 and has since made numerous groundbreaking discoveries?",
+        "answers": [
+            { "id": 1, "answer": "Hubble Space Telescope", "is_correct": true },
+            {
+                "id": 2,
+                "answer": "Kepler Space Telescope",
+                "is_correct": false
+            },
+            {
+                "id": 3,
+                "answer": "Chandra X-ray Observatory",
+                "is_correct": false
+            },
+            {
+                "id": 4,
+                "answer": "Spitzer Space Telescope",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the theory that describes the evolution of the universe from its earliest moments to the present day?",
+        "answers": [
+            { "id": 1, "answer": "Big Bang theory", "is_correct": true },
+            { "id": 2, "answer": "Steady state theory", "is_correct": false },
+            {
+                "id": 3,
+                "answer": "Pulsating universe theory",
+                "is_correct": false
+            },
+            { "id": 4, "answer": "Cyclic universe theory", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon where particles are ejected from the sun's corona and can interfere with communication and navigation systems on Earth?",
+        "answers": [
+            { "id": 1, "answer": "Coronal mass ejection", "is_correct": true },
+            { "id": 2, "answer": "Solar flare", "is_correct": false },
+            { "id": 3, "answer": "Aurora borealis", "is_correct": false },
+            { "id": 4, "answer": "Solar wind", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the closest galaxy to our own?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Canis Major Dwarf Galaxy",
+                "is_correct": true
+            },
+            { "id": 2, "answer": "Andromeda Galaxy", "is_correct": false },
+            {
+                "id": 3,
+                "answer": "Small Magellanic Cloud",
+                "is_correct": false
+            },
+            { "id": 4, "answer": "Triangulum Galaxy", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the region of space around a black hole where the gravitational pull is so strong that nothing, not even light, can escape?",
+        "answers": [
+            { "id": 1, "answer": "Event horizon", "is_correct": true },
+            { "id": 2, "answer": "Singularity", "is_correct": false },
+            { "id": 3, "answer": "Photon sphere", "is_correct": false },
+            { "id": 4, "answer": "Accretion disk", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the mission that successfully landed a rover on Mars in 2012?",
+        "answers": [
+            { "id": 1, "answer": "Curiosity", "is_correct": true },
+            { "id": 2, "answer": "Spirit", "is_correct": false },
+            { "id": 3, "answer": "Opportunity", "is_correct": false },
+            { "id": 4, "answer": "Sojourner", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process that powers stars by converting hydrogen into helium?",
+        "answers": [
+            { "id": 1, "answer": "Nuclear fusion", "is_correct": true },
+            { "id": 2, "answer": "Nuclear fission", "is_correct": false },
+            { "id": 3, "answer": "Radioactive decay", "is_correct": false },
+            { "id": 4, "answer": "Electron capture", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that was the first to fly by Pluto in 2015?",
+        "answers": [
+            { "id": 1, "answer": "New Horizons", "is_correct": true },
+            { "id": 2, "answer": "Voyager 1", "is_correct": false },
+            { "id": 3, "answer": "Voyager 2", "is_correct": false },
+            { "id": 4, "answer": "Cassini-Huygens", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the massive cloud of dust and gas from which a star and its planets form?",
+        "answers": [
+            { "id": 1, "answer": "Nebula", "is_correct": true },
+            { "id": 2, "answer": "Pulsar", "is_correct": false },
+            { "id": 3, "answer": "Quasar", "is_correct": false },
+            { "id": 4, "answer": "Supernova", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the galaxy that contains our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Milky Way Galaxy", "is_correct": true },
+            { "id": 2, "answer": "Andromeda Galaxy", "is_correct": false },
+            { "id": 3, "answer": "Triangulum Galaxy", "is_correct": false },
+            { "id": 4, "answer": "Whirlpool Galaxy", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the instrument that measures the brightness of stars?",
+        "answers": [
+            { "id": 1, "answer": "Photometer", "is_correct": true },
+            { "id": 2, "answer": "Spectrometer", "is_correct": false },
+            { "id": 3, "answer": "Telescope", "is_correct": false },
+            { "id": 4, "answer": "Radio telescope", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the theory that suggests that the universe is constantly expanding and that galaxies are moving away from each other?",
+        "answers": [
+            { "id": 1, "answer": "Hubble's law", "is_correct": true },
+            { "id": 2, "answer": "Steady state theory", "is_correct": false },
+            { "id": 3, "answer": "Big Bang theory", "is_correct": false },
+            { "id": 4, "answer": "Dark energy theory", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest planet in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Jupiter", "is_correct": true },
+            { "id": 2, "answer": "Saturn", "is_correct": false },
+            { "id": 3, "answer": "Uranus", "is_correct": false },
+            { "id": 4, "answer": "Neptune", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the brightest star in the night sky?",
+        "answers": [
+            { "id": 1, "answer": "Sirius", "is_correct": true },
+            { "id": 2, "answer": "Betelgeuse", "is_correct": false },
+            { "id": 3, "answer": "Rigel", "is_correct": false },
+            { "id": 4, "answer": "Polaris", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the layer of the Earth's atmosphere that contains the ozone layer?",
+        "answers": [
+            { "id": 1, "answer": "Stratosphere", "is_correct": true },
+            { "id": 2, "answer": "Mesosphere", "is_correct": false },
+            { "id": 3, "answer": "Thermosphere", "is_correct": false },
+            { "id": 4, "answer": "Exosphere", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that landed on Mars in 2012?",
+        "answers": [
+            { "id": 1, "answer": "Curiosity", "is_correct": true },
+            { "id": 2, "answer": "Pathfinder", "is_correct": false },
+            { "id": 3, "answer": "Viking 1", "is_correct": false },
+            { "id": 4, "answer": "Mars Express", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process by which the Earth's magnetic field is generated?",
+        "answers": [
+            { "id": 1, "answer": "Dynamo effect", "is_correct": true },
+            { "id": 2, "answer": "Solar wind", "is_correct": false },
+            { "id": 3, "answer": "Coriolis effect", "is_correct": false },
+            { "id": 4, "answer": "Convection", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that became the first to land on a comet in 2014?",
+        "answers": [
+            { "id": 1, "answer": "Rosetta", "is_correct": true },
+            { "id": 2, "answer": "Philae", "is_correct": false },
+            { "id": 3, "answer": "Stardust", "is_correct": false },
+            { "id": 4, "answer": "Deep Impact", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest volcano in the solar system",
+        "answers": [
+            { "id": 1, "answer": "Olympus Mons", "is_correct": true },
+            { "id": 2, "answer": "Mauna Kea", "is_correct": false },
+            { "id": 3, "answer": "Mount Everest", "is_correct": false },
+            { "id": 4, "answer": "Mount Kilimanjaro", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon in which a full moon appears larger and brighter than usual?",
+        "answers": [
+            { "id": 1, "answer": "Supermoon", "is_correct": true },
+            { "id": 2, "answer": "Blue moon", "is_correct": false },
+            { "id": 3, "answer": "Blood moon", "is_correct": false },
+            { "id": 4, "answer": "Harvest moon", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the dwarf planet located in the Kuiper Belt?",
+        "answers": [
+            { "id": 1, "answer": "Pluto", "is_correct": true },
+            { "id": 2, "answer": "Ceres", "is_correct": false },
+            { "id": 3, "answer": "Eris", "is_correct": false },
+            { "id": 4, "answer": "Haumea", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the phenomenon in which a meteoroid enters the Earth's atmosphere and becomes visible as a streak of light?",
+        "answers": [
+            { "id": 1, "answer": "Meteor", "is_correct": true },
+            { "id": 2, "answer": "Meteorite", "is_correct": false },
+            { "id": 3, "answer": "Asteroid", "is_correct": false },
+            { "id": 4, "answer": "Comet", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest moon in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Ganymede", "is_correct": true },
+            { "id": 2, "answer": "Titan", "is_correct": false },
+            { "id": 3, "answer": "Callisto", "is_correct": false },
+            { "id": 4, "answer": "Europa", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that was launched in 1977 and has since traveled beyond our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Voyager 1", "is_correct": true },
+            { "id": 2, "answer": "Pioneer 10", "is_correct": false },
+            { "id": 3, "answer": "Viking 1", "is_correct": false },
+            { "id": 4, "answer": "New Horizons", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the region of space around a black hole from which nothing can escape?",
+        "answers": [
+            { "id": 1, "answer": "Event horizon", "is_correct": true },
+            { "id": 2, "answer": "Singularity", "is_correct": false },
+            { "id": 3, "answer": "Photon sphere", "is_correct": false },
+            { "id": 4, "answer": "Ergosphere", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the star that is closest to our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Proxima Centauri", "is_correct": true },
+            { "id": 2, "answer": "Alpha Centauri A", "is_correct": false },
+            { "id": 3, "answer": "Alpha Centauri B", "is_correct": false },
+            { "id": 4, "answer": "Barnard's Star", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the largest planet in our solar system?",
+        "answers": [
+            { "id": 1, "answer": "Jupiter", "is_correct": true },
+            { "id": 2, "answer": "Saturn", "is_correct": false },
+            { "id": 3, "answer": "Neptune", "is_correct": false },
+            { "id": 4, "answer": "Uranus", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process by which stars release energy?",
+        "answers": [
+            { "id": 1, "answer": "Nuclear fusion", "is_correct": true },
+            { "id": 2, "answer": "Nuclear fission", "is_correct": false },
+            { "id": 3, "answer": "Nebular condensation", "is_correct": false },
+            { "id": 4, "answer": "Stellar accretion", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the brightest star in the night sky?",
+        "answers": [
+            { "id": 1, "answer": "Sirius", "is_correct": true },
+            { "id": 2, "answer": "Vega", "is_correct": false },
+            { "id": 3, "answer": "Betelgeuse", "is_correct": false },
+            { "id": 4, "answer": "Rigel", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the process by which a planet or moon cools and contracts, causing its surface to crack and form ridges and valleys?",
+        "answers": [
+            { "id": 1, "answer": "Tectonics", "is_correct": true },
+            { "id": 2, "answer": "Erosion", "is_correct": false },
+            { "id": 3, "answer": "Impact cratering", "is_correct": false },
+            { "id": 4, "answer": "Volcanism", "is_correct": false }
+        ]
+    },
+    {
+        "question": "What is the name of the spacecraft that landed on Mars in 2012 and discovered evidence of past habitable conditions?",
+        "answers": [
+            { "id": 1, "answer": "Curiosity", "is_correct": true },
+            { "id": 2, "answer": "Opportunity", "is_correct": false },
+            { "id": 3, "answer": "Spirit", "is_correct": false },
+            { "id": 4, "answer": "Sojourner", "is_correct": false }
+        ]
+    }
+]
