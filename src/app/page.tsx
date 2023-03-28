@@ -6,10 +6,14 @@ import { useState } from "react";
 
 export default function Home() {
     const [score, setScore] = useState<number>(0);
+    const [questionNumber, setQuestionNumber] = useState<number>(1);
+
     const getRandomQuestion = (questions: Question[]) => {
         if (questions.length === 0) {
             return {
-                question: `You got ${score + 1} out of ${questionNumber}`,
+                question: `You got ${score + 1} out of ${
+                    questionNumber - 1
+                } questions correct!`,
                 answers: [],
             };
         } else {
@@ -22,11 +26,11 @@ export default function Home() {
             return q;
         }
     };
+
     const [question, setQuestion] = useState<Question>(
         getRandomQuestion(questions)
     );
     const [isLoading, setIsLoading] = useState<boolean>(false);
-    const [questionNumber, setQuestionNumber] = useState<number>(1);
 
     const handleAnswer = (e: any, answer: Answer) => {
         if (isLoading) {
@@ -94,9 +98,26 @@ export default function Home() {
 
     return (
         <main className="flex flex-col items-center w-screen h-screen justify-evenly bg-gradient-to-b from-secondary to-tertiary text-neutral-100">
-            <Score points={score} />
+            {question.answers.length > 0 && <Score points={score} />}
             <h1 className="w-3/4 text-2xl font-bold text-center md:text-5xl lg:w-2/3 text-primary">
-                {`${questionNumber}. ${question.question}`}
+                {question.answers.length > 0 ? (
+                    `${questionNumber}. ${question.question}`
+                ) : (
+                    <>
+                        {question.question}
+                        <br />
+                        <br />
+                        <button
+                            onClick={() => {
+                                // reload the page
+                                window.location.reload();
+                            }}
+                            className="px-10 py-2 text-xl font-semibold text-center transition-all duration-300 border-2 shadow-xl md:text-2xl w-72 md:w-96 hover:md:scale-105 hover:md:opacity-80 hover:cursor-pointer text-primary bg-tertiary border-primary rounded-xl shadow-white/10"
+                        >
+                            Play Again
+                        </button>
+                    </>
+                )}
             </h1>
             <div className="gap-3 py-3 space-y-3 columns-1 lg:columns-2">
                 {/* shuffle the answers */}
